@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILMÊRA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FILMÊRA</h1>
+        <nav>
+            <ul>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#oscar">Oscar 2023</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contato">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="filmes">
+        <h2>Catálogo de Filmes</h2>
+        
+        <div class="filme-card">
+            <img src="./assets/the-holy-mountain.jpeg" alt="A Montanha Sagrada">
+            <h3>A Montanha Sagrada</h3>
+            <p>Ladrão (Horacio Salinas), figura similar a Jesus, perambula por estranhos cenários repletos de símbolos religiosos e pagãos. Um guia espiritual (Alejandro Jodorowsky) o apresenta a sete pessoas.</p>
+            <a href="#">Ver Mais</a>
+        </div>
+
+        <div class="filme-card">
+            <img src="./assets/sharknado.jpeg" alt="Sharknado">
+            <h3>Sharknado</h3>
+            <p>Um furacão estranho atinge Los Angeles e leva milhares de tubarões para o meio da cidade que está completamente alagada. Os ventos viram tornados no deserto, e as mortíferas criaturas se espalham pela água.</p>
+            <a href="#">Ver Mais</a>
+        </div>
+
+        <div class="filme-card">
+            <img src="./assets/perfume.jpeg" alt="O Perfume">
+            <h3>O Perfume</h3>
+            <p>Na França do século 18, Jean-Baptiste Grenouille é um aprendiz de perfumista com o dom incomum de diferenciar todos os odores à sua volta. Sua obsessão é extrair e preservar o aroma da feminilidade. </p>
+            <a href="#">Ver Mais</a>
+        </div>
+    </section>
+
+    <section id="oscar">
+        <h2>Vencedores do Oscar 2023</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Filme</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tudo em Todo Lugar ao Mesmo Tempo</td>
+                    <td>Melhor Filme</td>
+                </tr>
+                <tr>
+                    <td>Daniel Kwan e Daniel Scheinert (Tudo em Todo Lugar ao Mesmo Tempo)</td>
+                    <td>Melhor Diretor</td>
+                </tr>
+                <tr>
+                    <td>Brendan Fraser (The Whale)</td>
+                    <td>Melhor Ator</td>
+                </tr>
+                <tr>
+                    <td>Michelle Yeoh (Tudo em Todo Lugar ao Mesmo Tempo)</td>
+                    <td>Melhor Atriz</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="newsletter">
+        <h2>Receba nossa Newsletter!</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </section>
+
+    <footer>
+        <h2 id="contato">Fale Conosco</h2>
+        <p>Email: olgacosta@filmêra.com</p>
+        <p>Telefone: (71) 99367-0465</p>
+    </footer>
+</body>
+</html>

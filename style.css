@@ -1,0 +1,109 @@
+body {
+    font-family: Clash Display;
+}
+
+header {
+    background-color: #0c2904;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form button {
+    display: block;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #0c2904;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.filme-card {
+    display: inline-block;
+    width: calc(25% - 20px); /* Calcula 25% do espaço com 20px de margem */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+}
+
+.filme-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.filme-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.filme-card p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.filme-card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.filme-card a:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 1024px) {
+    .filme-card {
+        width: calc(25% - 20px); 
+    }
+}
